@@ -6,13 +6,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="item">
-      <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{ asset('public/images/anh1.jpg') }}">
+      <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="{{ asset('images/anh1.jpg') }}">
     </div>
     <div class="item">
-      <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{ asset('public/images/anh2.jpg') }}">
+      <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="{{ asset('images/anh2.jpg') }}">
     </div>
     <div class="item active">
-      <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{ asset('public/images/anh3.jpg') }}">
+      <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="{{ asset('images/anh3.jpg') }}">
     </div>
   </div>
   <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
