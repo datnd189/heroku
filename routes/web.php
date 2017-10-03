@@ -19,3 +19,6 @@ Route::get('messages', 'PagesController@getMessage');
 Route::get('contact', 'PagesController@getContact');
 Route::get('messages', 'MessageController@getMessages');
 Route::post('contact/submit', 'MessageController@submit');
+Route::get('todolist', 'TodosController@index');
+Route::get('create', 'TodosController@create');
+Route::resource('todos','TodosController');

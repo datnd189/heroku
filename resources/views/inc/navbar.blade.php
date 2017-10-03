@@ -18,6 +18,8 @@
 				<li class="{{ Request::is('about') ? 'active' : '' }}"><a href="about">About</a></li>
 				<li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="contact">Contact</a>
 				<li class="{{ Request::is('messages') ? 'active' : '' }}"><a href="messages">Messages</a></li>
+				<li class="{{ Request::is('todolist') ? 'active' : '' }}"><a href="todolist">TodoList</a></li>
+				<li class="{{ Request::is('create') ? 'active' : '' }}"><a href="create">Create Todo</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div>
